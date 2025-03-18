@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 current_version=$(python3 -V 2>&1 | awk '{print $2}')
 required_version="3.8"
 
